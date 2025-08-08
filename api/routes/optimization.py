@@ -376,13 +376,13 @@ async def start_hyperparameter_tuning(
             'error': None
         }
         
-        # TODO: Start tuning in background
-        # background_tasks.add_task(
-        #     _run_hyperparameter_tuning,
-        #     study_id,
-        #     optimizer,
-        #     request
-        # )
+        # Start tuning in background
+        background_tasks.add_task(
+            _run_hyperparameter_tuning,
+            study_id,
+            optimizer,
+            request
+        )
         
         logger.info(f"Started hyperparameter tuning {study_id} for {request.target_model}")
         
