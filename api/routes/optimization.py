@@ -641,13 +641,13 @@ async def enable_adaptive_strategies(
             'error': None
         }
         
-        # TODO: Start adaptive management in background
-        # background_tasks.add_task(
-        #     _run_adaptive_strategy_management,
-        #     manager_id,
-        #     adaptive_manager,
-        #     request
-        # )
+        # Start adaptive management in background
+        background_tasks.add_task(
+            _run_adaptive_strategy_management,
+            manager_id,
+            adaptive_manager,
+            request
+        )
         
         logger.info(f"Enabled adaptive strategies {manager_id}")
         
