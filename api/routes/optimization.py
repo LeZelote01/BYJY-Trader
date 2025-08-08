@@ -911,3 +911,182 @@ async def _run_pareto_optimization(
         # Cleanup optimizer
         if job_id in pareto_optimizers:
             del pareto_optimizers[job_id]
+
+
+async def _run_hyperparameter_tuning(
+    study_id: str,
+    optimizer: OptunaOptimizer,
+    request: HyperparameterTuningRequest
+):
+    """Run hyperparameter tuning in background."""
+    try:
+        # Mock objective function for now (will be replaced with actual model evaluation)
+        async def mock_objective_function(trial) -> float:
+            await asyncio.sleep(0.1)  # Simulate evaluation time
+            
+            # Mock hyperparameter suggestions based on target model
+            if request.target_model == 'lstm':
+                learning_rate = trial.suggest_float('learning_rate', 1e-5, 1e-2, log=True)
+                hidden_size = trial.suggest_int('hidden_size', 32, 512)
+                num_layers = trial.suggest_int('num_layers', 1, 4)
+                dropout = trial.suggest_float('dropout', 0.0, 0.5)
+                
+                # Mock performance based on hyperparameters
+                performance = np.random.normal(1.5, 0.3) + (learning_rate * 100) + (hidden_size / 1000)
+                
+            elif request.target_model == 'transformer':
+                learning_rate = trial.suggest_float('learning_rate', 1e-5, 1e-2, log=True)
+                num_heads = trial.suggest_categorical('num_heads', [4, 8, 12, 16])
+                num_layers = trial.suggest_int('num_layers', 2, 8)
+                d_model = trial.suggest_categorical('d_model', [128, 256, 512])
+                
+                performance = np.random.normal(1.7, 0.2) + (learning_rate * 50) + (num_heads / 20)
+                
+            else:
+                # Generic hyperparameters
+                learning_rate = trial.suggest_float('learning_rate', 1e-5, 1e-2, log=True)
+                batch_size = trial.suggest_categorical('batch_size', [16, 32, 64, 128])
+                
+                performance = np.random.normal(1.2, 0.4)
+            
+            return performance
+        
+        # Run optimization
+        results = await optimizer.optimize(
+            objective_function=mock_objective_function,
+            n_trials=request.n_trials,
+            timeout=request.timeout
+        )
+        
+        # Store results
+        optimization_jobs[study_id]['status'] = 'completed'
+        optimization_jobs[study_id]['results'] = results
+        optimization_jobs[study_id]['progress'] = 100.0
+        optimization_jobs[study_id]['best_value'] = results.get('best_value')
+        optimization_jobs[study_id]['best_params'] = results.get('best_params')
+        optimization_jobs[study_id]['n_trials_completed'] = results.get('n_trials', 0)
+        optimization_jobs[study_id]['completed_at'] = datetime.now()
+        
+        logger.info(f"Hyperparameter tuning {study_id} completed successfully")
+        
+    except Exception as e:
+        logger.error(f"Hyperparameter tuning {study_id} failed: {e}")
+        optimization_jobs[study_id]['status'] = 'failed'
+        optimization_jobs[study_id]['error'] = str(e)
+    
+    finally:
+        # Cleanup optimizer
+        if study_id in optuna_optimizers:
+            del optuna_optimizers[study_id]
+
+
+async def _run_meta_learning_adaptation(
+    adaptation_id: str,
+    meta_learner: MetaLearner,
+    request: MetaLearningRequest
+):
+    """Run meta-learning adaptation in background."""
+    try:
+        # Mock adaptation process
+        await asyncio.sleep(2.0)  # Simulate adaptation time
+        
+        # Mock adaptation results
+        adaptation_results = {
+            'source_models_analyzed': len(request.source_models),
+            'target_market': request.target_market,
+            'adaptation_strategy': request.adaptation_strategy,
+            'knowledge_transfer_success': np.random.uniform(0.6, 0.9),
+            'performance_improvement': np.random.uniform(0.1, 0.3),
+            'adapted_features': [
+                {'feature': 'price_patterns', 'transfer_score': np.random.uniform(0.7, 0.95)},
+                {'feature': 'volatility_modeling', 'transfer_score': np.random.uniform(0.6, 0.9)},
+                {'feature': 'trend_detection', 'transfer_score': np.random.uniform(0.5, 0.85)}
+            ],
+            'meta_insights': {
+                'optimal_source_model': np.random.choice(request.source_models),
+                'adaptation_confidence': np.random.uniform(0.7, 0.95),
+                'recommended_fine_tuning_epochs': np.random.randint(5, 20)
+            }
+        }
+        
+        # Store results
+        optimization_jobs[adaptation_id]['status'] = 'completed'
+        optimization_jobs[adaptation_id]['results'] = adaptation_results
+        optimization_jobs[adaptation_id]['progress'] = 100.0
+        optimization_jobs[adaptation_id]['completed_at'] = datetime.now()
+        
+        logger.info(f"Meta-learning adaptation {adaptation_id} completed successfully")
+        
+    except Exception as e:
+        logger.error(f"Meta-learning adaptation {adaptation_id} failed: {e}")
+        optimization_jobs[adaptation_id]['status'] = 'failed'
+        optimization_jobs[adaptation_id]['error'] = str(e)
+    
+    finally:
+        # Cleanup meta-learner
+        if adaptation_id in meta_learners:
+            del meta_learners[adaptation_id]
+
+
+async def _run_adaptive_strategy_management(
+    manager_id: str,
+    adaptive_manager: AdaptiveStrategyManager,
+    request: AdaptiveStrategyRequest
+):
+    """Run adaptive strategy management in background."""
+    try:
+        # Mock adaptive strategy management
+        adaptations_made = 0
+        
+        # Simulate continuous adaptation process
+        for i in range(10):  # Simulate 10 adaptation cycles
+            await asyncio.sleep(0.5)  # Simulate monitoring time
+            
+            # Mock market regime detection
+            current_regime = np.random.choice(['trending', 'sideways', 'volatile'])
+            
+            # Mock strategy performance
+            current_performance = np.random.uniform(0.0, 1.0)
+            
+            # Decide if adaptation is needed
+            if current_performance < request.performance_threshold:
+                # Select new strategy
+                new_strategy = np.random.choice(request.strategy_pool)
+                adaptations_made += 1
+                
+                # Update job info
+                optimization_jobs[manager_id]['current_strategy'] = new_strategy
+                optimization_jobs[manager_id]['adaptations_count'] = adaptations_made
+                
+                logger.info(f"Adaptive manager {manager_id} switched to strategy: {new_strategy}")
+            
+            # Update progress
+            optimization_jobs[manager_id]['progress'] = (i + 1) * 10.0
+        
+        # Final results
+        adaptation_results = {
+            'total_adaptations': adaptations_made,
+            'final_strategy': optimization_jobs[manager_id]['current_strategy'],
+            'average_performance': np.random.uniform(0.6, 0.9),
+            'regime_changes_detected': np.random.randint(3, 8),
+            'adaptation_success_rate': np.random.uniform(0.7, 0.95),
+            'performance_improvement': np.random.uniform(0.1, 0.4)
+        }
+        
+        # Store results
+        optimization_jobs[manager_id]['status'] = 'completed'
+        optimization_jobs[manager_id]['results'] = adaptation_results
+        optimization_jobs[manager_id]['progress'] = 100.0
+        optimization_jobs[manager_id]['completed_at'] = datetime.now()
+        
+        logger.info(f"Adaptive strategy management {manager_id} completed successfully")
+        
+    except Exception as e:
+        logger.error(f"Adaptive strategy management {manager_id} failed: {e}")
+        optimization_jobs[manager_id]['status'] = 'failed'
+        optimization_jobs[manager_id]['error'] = str(e)
+    
+    finally:
+        # Cleanup adaptive manager
+        if manager_id in adaptive_managers:
+            del adaptive_managers[manager_id]
