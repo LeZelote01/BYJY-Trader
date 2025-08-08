@@ -1,102 +1,95 @@
 {
   "test_summary": {
-    "total_tests": 13,
-    "passed_tests": 3,
-    "failed_tests": 10,
-    "success_rate": 23.1
+    "total_tests": 12,
+    "passed_tests": 11,
+    "failed_tests": 1,
+    "success_rate": 91.7
   },
   "detailed_results": [
     {
       "test_name": "Optimization Service Status",
-      "passed": false,
-      "details": "HTTP 404: 404 page not found\n",
-      "latency_ms": 79.17,
-      "timestamp": "2025-08-08T18:16:07.616809"
+      "passed": true,
+      "details": "Service healthy with 0 total jobs",
+      "latency_ms": 2.16,
+      "timestamp": "2025-08-08T18:18:26.843217"
     },
     {
       "test_name": "Genetic Optimization Start",
-      "passed": false,
-      "details": "HTTP 404: 404 page not found\n",
-      "latency_ms": 17.58,
-      "timestamp": "2025-08-08T18:16:08.136637"
+      "passed": true,
+      "details": "Started genetic optimization job: 2e88c195-30d8-4e2f-a514-781f8ee2e2ba",
+      "latency_ms": 9.49,
+      "timestamp": "2025-08-08T18:18:27.354621"
     },
     {
       "test_name": "Genetic Optimization Start",
-      "passed": false,
-      "details": "HTTP 404: 404 page not found\n",
-      "latency_ms": 18.16,
-      "timestamp": "2025-08-08T18:16:08.657014"
+      "passed": true,
+      "details": "Started genetic optimization job: c52c73b1-5bcb-48bd-9c49-75eecd5ea14c",
+      "latency_ms": 9.0,
+      "timestamp": "2025-08-08T18:18:27.865352"
     },
     {
       "test_name": "Genetic Optimization Status",
       "passed": true,
-      "details": "Correctly returns 404 for invalid job ID",
-      "latency_ms": 18.73,
-      "timestamp": "2025-08-08T18:16:08.676900"
+      "details": "Status: running, Progress: 10.0%",
+      "latency_ms": 35.39,
+      "timestamp": "2025-08-08T18:18:27.901801"
     },
     {
       "test_name": "Genetic Optimization History",
-      "passed": false,
-      "details": "HTTP 404: 404 page not found\n",
-      "latency_ms": 18.25,
-      "timestamp": "2025-08-08T18:16:09.197270"
+      "passed": true,
+      "details": "Retrieved 2 optimization jobs in history",
+      "latency_ms": 2.02,
+      "timestamp": "2025-08-08T18:18:28.405770"
     },
     {
       "test_name": "Pareto Multi-Objective Optimization",
-      "passed": false,
-      "details": "HTTP 404: 404 page not found\n",
-      "latency_ms": 19.29,
-      "timestamp": "2025-08-08T18:16:09.718072"
-    },
-    {
-      "test_name": "Pareto Multi-Objective Optimization",
-      "passed": false,
-      "details": "HTTP 404: 404 page not found\n",
-      "latency_ms": 15.95,
-      "timestamp": "2025-08-08T18:16:10.236133"
+      "passed": true,
+      "details": "Started Pareto optimization job: d52d90c2-9baf-4ee3-a985-7d590733b607",
+      "latency_ms": 11.66,
+      "timestamp": "2025-08-08T18:18:28.919382"
     },
     {
       "test_name": "Pareto Front Results",
       "passed": true,
-      "details": "Correctly returns 404 for invalid job ID",
-      "latency_ms": 18.32,
-      "timestamp": "2025-08-08T18:16:12.258018"
+      "details": "Correctly returns 400 for incomplete optimization",
+      "latency_ms": 3.69,
+      "timestamp": "2025-08-08T18:18:29.424740"
     },
     {
       "test_name": "Hyperparameter Tuning Endpoint",
-      "passed": false,
-      "details": "ENDPOINT MISSING - Not implemented in Phase 3.4",
-      "latency_ms": 45.46,
-      "timestamp": "2025-08-08T18:16:12.805603"
+      "passed": true,
+      "details": "Endpoint exists: HTTP 200",
+      "latency_ms": 7.2,
+      "timestamp": "2025-08-08T18:18:29.933294"
     },
     {
       "test_name": "Adaptive Strategies Endpoint",
-      "passed": false,
-      "details": "ENDPOINT MISSING - Not implemented in Phase 3.4",
-      "latency_ms": 22.93,
-      "timestamp": "2025-08-08T18:16:13.330609"
+      "passed": true,
+      "details": "Endpoint exists: HTTP 422",
+      "latency_ms": 2.23,
+      "timestamp": "2025-08-08T18:18:30.437198"
     },
     {
       "test_name": "Optimization Job Management",
       "passed": true,
       "details": "Correctly returns 404 for invalid job ID deletion",
-      "latency_ms": 19.47,
-      "timestamp": "2025-08-08T18:16:13.852201"
+      "latency_ms": 3.62,
+      "timestamp": "2025-08-08T18:18:30.942475"
     },
     {
       "test_name": "Genetic Algorithm Convergence",
       "passed": false,
-      "details": "Failed to start convergence test: HTTP 404",
-      "latency_ms": 20.38,
-      "timestamp": "2025-08-08T18:16:14.374659"
+      "details": "Failed to start convergence test: HTTP 422",
+      "latency_ms": 2.01,
+      "timestamp": "2025-08-08T18:18:31.445927"
     },
     {
       "test_name": "Phase Integration",
-      "passed": false,
-      "details": "Integration issues detected with previous phases",
-      "latency_ms": 15.35,
-      "timestamp": "2025-08-08T18:16:14.897221"
+      "passed": true,
+      "details": "RL phase accessible, Ensemble may not be implemented",
+      "latency_ms": 1.73,
+      "timestamp": "2025-08-08T18:18:31.950736"
     }
   ],
-  "timestamp": "2025-08-08T18:16:15.398967"
+  "timestamp": "2025-08-08T18:18:32.452220"
 }
