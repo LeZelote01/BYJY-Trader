@@ -16,7 +16,7 @@ import pytest
 from pydantic import BaseModel
 
 # Configuration de test
-BACKEND_URL = "https://e61aade5-33d8-44a4-8cd5-e207b55d780e.preview.emergentagent.com"
+BACKEND_URL = "http://127.0.0.1:8001"
 API_BASE = f"{BACKEND_URL}/api"
 
 class TestResults:
