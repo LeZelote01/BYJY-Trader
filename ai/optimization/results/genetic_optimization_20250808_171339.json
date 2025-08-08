@@ -1,0 +1,337 @@
+{
+  "best_parameters": {
+    "layers": 2,
+    "neurons": 40,
+    "dropout": 0.11581302106198846,
+    "learning_rate": 0.002284873468058433,
+    "batch_size": "128",
+    "optimizer": "adam",
+    "use_regularization": "False"
+  },
+  "best_fitness": 0.8481786294291018,
+  "generations_completed": 16,
+  "converged": true,
+  "fitness_history": [
+    0.8481786294291018,
+    0.8481786294291018,
+    0.8481786294291018,
+    0.8481786294291018,
+    0.8481786294291018,
+    0.8481786294291018,
+    0.8481786294291018,
+    0.8481786294291018,
+    0.8481786294291018,
+    0.8481786294291018,
+    0.8481786294291018,
+    0.8481786294291018,
+    0.8481786294291018,
+    0.8481786294291018,
+    0.8481786294291018,
+    0.8481786294291018
+  ],
+  "generation_stats": [
+    {
+      "generation": 1,
+      "best_fitness": 0.8481786294291018,
+      "avg_fitness": 0.740248635301578,
+      "std_fitness": 0.04843667728791345,
+      "best_genes": {
+        "layers": 2,
+        "neurons": 40,
+        "dropout": 0.11581302106198846,
+        "learning_rate": 0.002284873468058433,
+        "batch_size": "128",
+        "optimizer": "adam",
+        "use_regularization": "False"
+      },
+      "timestamp": "2025-08-08T17:13:38.857257"
+    },
+    {
+      "generation": 2,
+      "best_fitness": 0.8481786294291018,
+      "avg_fitness": 0.7558897101434013,
+      "std_fitness": 0.056115876112268974,
+      "best_genes": {
+        "layers": 2,
+        "neurons": 40,
+        "dropout": 0.11581302106198846,
+        "learning_rate": 0.002284873468058433,
+        "batch_size": "128",
+        "optimizer": "adam",
+        "use_regularization": "False"
+      },
+      "timestamp": "2025-08-08T17:13:38.871176"
+    },
+    {
+      "generation": 3,
+      "best_fitness": 0.8481786294291018,
+      "avg_fitness": 0.7716620578101577,
+      "std_fitness": 0.05654072461330754,
+      "best_genes": {
+        "layers": 2,
+        "neurons": 40,
+        "dropout": 0.11581302106198846,
+        "learning_rate": 0.002284873468058433,
+        "batch_size": "128",
+        "optimizer": "adam",
+        "use_regularization": "False"
+      },
+      "timestamp": "2025-08-08T17:13:38.940288"
+    },
+    {
+      "generation": 4,
+      "best_fitness": 0.8481786294291018,
+      "avg_fitness": 0.7791287405472318,
+      "std_fitness": 0.05771029720170105,
+      "best_genes": {
+        "layers": 2,
+        "neurons": 40,
+        "dropout": 0.11581302106198846,
+        "learning_rate": 0.002284873468058433,
+        "batch_size": "128",
+        "optimizer": "adam",
+        "use_regularization": "False"
+      },
+      "timestamp": "2025-08-08T17:13:38.954452"
+    },
+    {
+      "generation": 5,
+      "best_fitness": 0.8481786294291018,
+      "avg_fitness": 0.7729399945761584,
+      "std_fitness": 0.05986925596204046,
+      "best_genes": {
+        "layers": 2,
+        "neurons": 40,
+        "dropout": 0.11581302106198846,
+        "learning_rate": 0.002284873468058433,
+        "batch_size": "128",
+        "optimizer": "adam",
+        "use_regularization": "False"
+      },
+      "timestamp": "2025-08-08T17:13:39.027017"
+    },
+    {
+      "generation": 6,
+      "best_fitness": 0.8481786294291018,
+      "avg_fitness": 0.7931262543423699,
+      "std_fitness": 0.05365859552194528,
+      "best_genes": {
+        "layers": 2,
+        "neurons": 40,
+        "dropout": 0.11581302106198846,
+        "learning_rate": 0.002284873468058433,
+        "batch_size": "128",
+        "optimizer": "adam",
+        "use_regularization": "False"
+      },
+      "timestamp": "2025-08-08T17:13:39.040981"
+    },
+    {
+      "generation": 7,
+      "best_fitness": 0.8481786294291018,
+      "avg_fitness": 0.8144799775386801,
+      "std_fitness": 0.0426316709730001,
+      "best_genes": {
+        "layers": 2,
+        "neurons": 40,
+        "dropout": 0.11581302106198846,
+        "learning_rate": 0.002284873468058433,
+        "batch_size": "128",
+        "optimizer": "adam",
+        "use_regularization": "False"
+      },
+      "timestamp": "2025-08-08T17:13:39.054796"
+    },
+    {
+      "generation": 8,
+      "best_fitness": 0.8481786294291018,
+      "avg_fitness": 0.8241392208779472,
+      "std_fitness": 0.039582979833273614,
+      "best_genes": {
+        "layers": 2,
+        "neurons": 40,
+        "dropout": 0.11581302106198846,
+        "learning_rate": 0.002284873468058433,
+        "batch_size": "128",
+        "optimizer": "adam",
+        "use_regularization": "False"
+      },
+      "timestamp": "2025-08-08T17:13:39.068161"
+    },
+    {
+      "generation": 9,
+      "best_fitness": 0.8481786294291018,
+      "avg_fitness": 0.8245148321076055,
+      "std_fitness": 0.03968419676575133,
+      "best_genes": {
+        "layers": 2,
+        "neurons": 40,
+        "dropout": 0.11581302106198846,
+        "learning_rate": 0.002284873468058433,
+        "batch_size": "128",
+        "optimizer": "adam",
+        "use_regularization": "False"
+      },
+      "timestamp": "2025-08-08T17:13:39.139885"
+    },
+    {
+      "generation": 10,
+      "best_fitness": 0.8481786294291018,
+      "avg_fitness": 0.8390981731745691,
+      "std_fitness": 0.024479106550978565,
+      "best_genes": {
+        "layers": 2,
+        "neurons": 40,
+        "dropout": 0.11581302106198846,
+        "learning_rate": 0.002284873468058433,
+        "batch_size": "128",
+        "optimizer": "adam",
+        "use_regularization": "False"
+      },
+      "timestamp": "2025-08-08T17:13:39.152954"
+    },
+    {
+      "generation": 11,
+      "best_fitness": 0.8481786294291018,
+      "avg_fitness": 0.829519391101027,
+      "std_fitness": 0.03646305294106004,
+      "best_genes": {
+        "layers": 2,
+        "neurons": 40,
+        "dropout": 0.11581302106198846,
+        "learning_rate": 0.002284873468058433,
+        "batch_size": "128",
+        "optimizer": "adam",
+        "use_regularization": "False"
+      },
+      "timestamp": "2025-08-08T17:13:39.239647"
+    },
+    {
+      "generation": 12,
+      "best_fitness": 0.8481786294291018,
+      "avg_fitness": 0.8341020586532446,
+      "std_fitness": 0.03214315074937837,
+      "best_genes": {
+        "layers": 2,
+        "neurons": 40,
+        "dropout": 0.11581302106198846,
+        "learning_rate": 0.002284873468058433,
+        "batch_size": "128",
+        "optimizer": "adam",
+        "use_regularization": "False"
+      },
+      "timestamp": "2025-08-08T17:13:39.252941"
+    },
+    {
+      "generation": 13,
+      "best_fitness": 0.8481786294291018,
+      "avg_fitness": 0.8368208774098101,
+      "std_fitness": 0.031192797806503837,
+      "best_genes": {
+        "layers": 2,
+        "neurons": 40,
+        "dropout": 0.11581302106198846,
+        "learning_rate": 0.002284873468058433,
+        "batch_size": "128",
+        "optimizer": "adam",
+        "use_regularization": "False"
+      },
+      "timestamp": "2025-08-08T17:13:39.266032"
+    },
+    {
+      "generation": 14,
+      "best_fitness": 0.8481786294291018,
+      "avg_fitness": 0.8341178010728407,
+      "std_fitness": 0.033936382422257425,
+      "best_genes": {
+        "layers": 2,
+        "neurons": 40,
+        "dropout": 0.11581302106198846,
+        "learning_rate": 0.002284873468058433,
+        "batch_size": "128",
+        "optimizer": "adam",
+        "use_regularization": "False"
+      },
+      "timestamp": "2025-08-08T17:13:39.339355"
+    },
+    {
+      "generation": 15,
+      "best_fitness": 0.8481786294291018,
+      "avg_fitness": 0.8418581417240069,
+      "std_fitness": 0.02198672288596862,
+      "best_genes": {
+        "layers": 2,
+        "neurons": 40,
+        "dropout": 0.11581302106198846,
+        "learning_rate": 0.002284873468058433,
+        "batch_size": "128",
+        "optimizer": "adam",
+        "use_regularization": "False"
+      },
+      "timestamp": "2025-08-08T17:13:39.352297"
+    },
+    {
+      "generation": 16,
+      "best_fitness": 0.8481786294291018,
+      "avg_fitness": 0.8388985558172207,
+      "std_fitness": 0.02645834324026341,
+      "best_genes": {
+        "layers": 2,
+        "neurons": 40,
+        "dropout": 0.11581302106198846,
+        "learning_rate": 0.002284873468058433,
+        "batch_size": "128",
+        "optimizer": "adam",
+        "use_regularization": "False"
+      },
+      "timestamp": "2025-08-08T17:13:39.365219"
+    }
+  ],
+  "optimization_config": {
+    "population_size": 50,
+    "crossover_prob": 0.8,
+    "mutation_prob": 0.15,
+    "elitism_ratio": 0.1
+  },
+  "parameter_space": {
+    "layers": {
+      "type": "int",
+      "min": 1,
+      "max": 5
+    },
+    "neurons": {
+      "type": "int",
+      "min": 32,
+      "max": 256
+    },
+    "dropout": {
+      "type": "float",
+      "min": 0.1,
+      "max": 0.5
+    },
+    "learning_rate": {
+      "type": "float",
+      "min": 1e-05,
+      "max": 0.01
+    },
+    "batch_size": {
+      "type": "categorical",
+      "choices": [
+        16,
+        32,
+        64,
+        128
+      ]
+    },
+    "optimizer": {
+      "type": "categorical",
+      "choices": [
+        "adam",
+        "rmsprop"
+      ]
+    },
+    "use_regularization": {
+      "type": "boolean"
+    }
+  }
+}

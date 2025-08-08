@@ -1,0 +1,183 @@
+{
+  "best_parameters": {
+    "learning_rate": 0.055577627758262874,
+    "batch_size": 67,
+    "neurons": 47,
+    "dropout": 0.3313948620053462
+  },
+  "best_fitness": -Infinity,
+  "generations_completed": 10,
+  "converged": false,
+  "fitness_history": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "generation_stats": [
+    {
+      "generation": 1,
+      "best_fitness": -Infinity,
+      "avg_fitness": -Infinity,
+      "std_fitness": NaN,
+      "best_genes": {
+        "learning_rate": 0.055577627758262874,
+        "batch_size": 67,
+        "neurons": 47,
+        "dropout": 0.3313948620053462
+      },
+      "timestamp": "2025-08-08T16:06:20.806651"
+    },
+    {
+      "generation": 2,
+      "best_fitness": -Infinity,
+      "avg_fitness": -Infinity,
+      "std_fitness": NaN,
+      "best_genes": {
+        "learning_rate": 0.055577627758262874,
+        "batch_size": 67,
+        "neurons": 47,
+        "dropout": 0.3313948620053462
+      },
+      "timestamp": "2025-08-08T16:06:20.859240"
+    },
+    {
+      "generation": 3,
+      "best_fitness": -Infinity,
+      "avg_fitness": -Infinity,
+      "std_fitness": NaN,
+      "best_genes": {
+        "learning_rate": 0.055577627758262874,
+        "batch_size": 67,
+        "neurons": 47,
+        "dropout": 0.3313948620053462
+      },
+      "timestamp": "2025-08-08T16:06:20.891653"
+    },
+    {
+      "generation": 4,
+      "best_fitness": -Infinity,
+      "avg_fitness": -Infinity,
+      "std_fitness": NaN,
+      "best_genes": {
+        "learning_rate": 0.055577627758262874,
+        "batch_size": 67,
+        "neurons": 47,
+        "dropout": 0.3313948620053462
+      },
+      "timestamp": "2025-08-08T16:06:20.917609"
+    },
+    {
+      "generation": 5,
+      "best_fitness": -Infinity,
+      "avg_fitness": -Infinity,
+      "std_fitness": NaN,
+      "best_genes": {
+        "learning_rate": 0.055577627758262874,
+        "batch_size": 67,
+        "neurons": 47,
+        "dropout": 0.3313948620053462
+      },
+      "timestamp": "2025-08-08T16:06:20.957508"
+    },
+    {
+      "generation": 6,
+      "best_fitness": -Infinity,
+      "avg_fitness": -Infinity,
+      "std_fitness": NaN,
+      "best_genes": {
+        "learning_rate": 0.055577627758262874,
+        "batch_size": 67,
+        "neurons": 47,
+        "dropout": 0.3313948620053462
+      },
+      "timestamp": "2025-08-08T16:06:20.985757"
+    },
+    {
+      "generation": 7,
+      "best_fitness": -Infinity,
+      "avg_fitness": -Infinity,
+      "std_fitness": NaN,
+      "best_genes": {
+        "learning_rate": 0.055577627758262874,
+        "batch_size": 67,
+        "neurons": 47,
+        "dropout": 0.3313948620053462
+      },
+      "timestamp": "2025-08-08T16:06:21.014952"
+    },
+    {
+      "generation": 8,
+      "best_fitness": -Infinity,
+      "avg_fitness": -Infinity,
+      "std_fitness": NaN,
+      "best_genes": {
+        "learning_rate": 0.055577627758262874,
+        "batch_size": 67,
+        "neurons": 47,
+        "dropout": 0.3313948620053462
+      },
+      "timestamp": "2025-08-08T16:06:21.057746"
+    },
+    {
+      "generation": 9,
+      "best_fitness": -Infinity,
+      "avg_fitness": -Infinity,
+      "std_fitness": NaN,
+      "best_genes": {
+        "learning_rate": 0.055577627758262874,
+        "batch_size": 67,
+        "neurons": 47,
+        "dropout": 0.3313948620053462
+      },
+      "timestamp": "2025-08-08T16:06:21.083542"
+    },
+    {
+      "generation": 10,
+      "best_fitness": -Infinity,
+      "avg_fitness": -Infinity,
+      "std_fitness": NaN,
+      "best_genes": {
+        "learning_rate": 0.055577627758262874,
+        "batch_size": 67,
+        "neurons": 47,
+        "dropout": 0.3313948620053462
+      },
+      "timestamp": "2025-08-08T16:06:21.112021"
+    }
+  ],
+  "optimization_config": {
+    "population_size": 20,
+    "crossover_prob": 0.8,
+    "mutation_prob": 0.1,
+    "elitism_ratio": 0.1
+  },
+  "parameter_space": {
+    "learning_rate": {
+      "type": "float",
+      "min": 0.001,
+      "max": 0.1
+    },
+    "batch_size": {
+      "type": "int",
+      "min": 16,
+      "max": 128
+    },
+    "neurons": {
+      "type": "int",
+      "min": 32,
+      "max": 512
+    },
+    "dropout": {
+      "type": "float",
+      "min": 0.1,
+      "max": 0.5
+    }
+  }
+}

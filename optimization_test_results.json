@@ -1,0 +1,95 @@
+{
+  "test_summary": {
+    "total_tests": 12,
+    "passed_tests": 8,
+    "failed_tests": 4,
+    "success_rate": 66.7
+  },
+  "detailed_results": [
+    {
+      "test_name": "Optimization Service Status",
+      "passed": true,
+      "details": "Service healthy with 3 total jobs",
+      "latency_ms": 97.11,
+      "timestamp": "2025-08-08T17:20:58.817613"
+    },
+    {
+      "test_name": "Genetic Optimization Start",
+      "passed": true,
+      "details": "Started genetic optimization job: cfce1e2c-7a72-496a-b8df-fbc13f5657d2",
+      "latency_ms": 28.13,
+      "timestamp": "2025-08-08T17:20:59.347862"
+    },
+    {
+      "test_name": "Genetic Optimization Start",
+      "passed": true,
+      "details": "Started genetic optimization job: 2c0adcac-abb9-4d29-aa11-f7ab5a4a00cc",
+      "latency_ms": 30.41,
+      "timestamp": "2025-08-08T17:20:59.880381"
+    },
+    {
+      "test_name": "Genetic Optimization Status",
+      "passed": false,
+      "details": "HTTP 500: {'error': 'Internal server error', 'status_code': 500, 'path': '/api/optimization/genetic/status/2c0adcac-abb9-4d29-aa11-f7ab5a4a00cc'}",
+      "latency_ms": 100.51,
+      "timestamp": "2025-08-08T17:20:59.982064"
+    },
+    {
+      "test_name": "Genetic Optimization History",
+      "passed": true,
+      "details": "Retrieved 5 optimization jobs in history",
+      "latency_ms": 26.76,
+      "timestamp": "2025-08-08T17:21:00.511094"
+    },
+    {
+      "test_name": "Pareto Multi-Objective Optimization",
+      "passed": true,
+      "details": "Started Pareto optimization job: 5ea09bdb-1b2d-4ccb-89b4-506e71874efd",
+      "latency_ms": 37.2,
+      "timestamp": "2025-08-08T17:21:01.050323"
+    },
+    {
+      "test_name": "Pareto Front Results",
+      "passed": true,
+      "details": "Correctly returns 400 for incomplete optimization",
+      "latency_ms": 26.07,
+      "timestamp": "2025-08-08T17:21:01.578496"
+    },
+    {
+      "test_name": "Hyperparameter Tuning Endpoint",
+      "passed": false,
+      "details": "ENDPOINT MISSING - Not implemented in Phase 3.4",
+      "latency_ms": 48.87,
+      "timestamp": "2025-08-08T17:21:02.129441"
+    },
+    {
+      "test_name": "Adaptive Strategies Endpoint",
+      "passed": false,
+      "details": "ENDPOINT MISSING - Not implemented in Phase 3.4",
+      "latency_ms": 19.09,
+      "timestamp": "2025-08-08T17:21:02.650581"
+    },
+    {
+      "test_name": "Optimization Job Management",
+      "passed": true,
+      "details": "Correctly returns 404 for invalid job ID deletion",
+      "latency_ms": 21.2,
+      "timestamp": "2025-08-08T17:21:03.173767"
+    },
+    {
+      "test_name": "Genetic Algorithm Convergence",
+      "passed": false,
+      "details": "Failed to start convergence test: HTTP 422",
+      "latency_ms": 21.14,
+      "timestamp": "2025-08-08T17:21:03.696926"
+    },
+    {
+      "test_name": "Phase Integration",
+      "passed": true,
+      "details": "RL phase accessible, Ensemble may not be implemented",
+      "latency_ms": 44.53,
+      "timestamp": "2025-08-08T17:21:04.251719"
+    }
+  ],
+  "timestamp": "2025-08-08T17:21:04.753290"
+}

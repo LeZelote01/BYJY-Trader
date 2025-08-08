@@ -1,0 +1,88 @@
+# BYJY-Trader Requirements - Compatible versions
+# Core Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Database & Cache
+sqlalchemy>=2.0.0
+aiosqlite>=0.21.0
+
+# Async & HTTP
+httpx>=0.24.0
+aiohttp>=3.8.0
+websockets>=11.0
+
+# Phase 2.4 - Exchange Connectors Dependencies
+python-binance>=1.0.19
+urllib3>=2.0.0
+
+# Data Processing & Analysis (Phase 2.1)
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Trading & Finance
+ccxt>=4.0.0
+yfinance>=0.2.0
+
+# Security & Crypto
+cryptography>=40.0.0
+PyJWT>=2.7.0
+bcrypt>=4.0.0
+passlib[bcrypt]>=1.7.4
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
+
+# Development
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+
+# Monitoring & Logging
+structlog>=23.0.0
+
+# Utilities
+click>=8.1.0
+rich>=13.0.0
+typer>=0.9.0
+schedule>=1.2.0
+
+# AI & Machine Learning (Phase 2.2)
+tensorflow>=2.19.0
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+optuna>=3.0.0
+
+# Phase 3.4 - Optimisation Génétique & Meta-Learning
+deap>=1.4.1                # Genetic algorithms
+pymoo>=0.6.0               # Multi-objective optimization
+ray[tune]>=2.8.0           # Distributed hyperparameter tuning
+hyperopt>=0.2.7            # Hyperparameter optimization
+scikit-optimize>=0.9.0     # Bayesian optimization
+
+# Phase 3.3 - Reinforcement Learning
+torch>=2.1.0
+gymnasium>=0.28.0
+stable-baselines3>=2.0.0
+
+# Visualization & ML Tools
+matplotlib>=3.10.0
+seaborn>=0.13.0
+plotly>=6.0.0
+
+# Phase 3.2 - Sentiment Analysis
+beautifulsoup4>=4.11.1
+feedparser>=6.0.0
+python-dateutil>=2.8.0
+
+# Pour démarrage minimal - Core uniquement
+requests>=2.31.0
+aiofiles>=23.0.0
+watchdog>=6.0.0

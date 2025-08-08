@@ -1,0 +1,2891 @@
+[
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T17:51:11.924792+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "300dc2522252da68",
+    "description": "Changed test.value_10: None -> 10"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T17:51:11.928985+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "0aa80d7ba6a8e736",
+    "description": "Changed test.value_11: None -> 11"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T17:51:11.933189+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "06c85a04e0052d5b",
+    "description": "Changed test.value_12: None -> 12"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T17:51:11.937525+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "bfd4e07924c2abf3",
+    "description": "Changed test.value_13: None -> 13"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T17:51:11.941697+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "31fd652192e6b48a",
+    "description": "Changed test.value_14: None -> 14"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T17:51:11.949673+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 2000.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "9b1d1ca4e059c4c1",
+    "description": "Initial value"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T17:51:11.953867+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 2000.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "40fd519f47e43107",
+    "description": "First change"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T17:51:11.958174+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 2000.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "b0cff4f116e0ad5a",
+    "description": "Second change"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T17:51:11.966803+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 1500.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 2.0,
+        "take_profit_percentage": 3.0,
+        "enabled": true,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 10.0,
+        "max_concurrent_orders": 5,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 30,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "INFO",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      }
+    },
+    "hash": "e075e3afb1e8d4c8",
+    "description": "Initial value"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T17:51:11.970982+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 1500.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 2.0,
+        "take_profit_percentage": 3.0,
+        "enabled": true,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 10.0,
+        "max_concurrent_orders": 5,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 30,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "INFO",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      }
+    },
+    "hash": "745a4b74d48f33bc",
+    "description": "First change"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T17:51:11.988802+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 3000.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 2.0,
+        "take_profit_percentage": 3.0,
+        "enabled": true,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 10.0,
+        "max_concurrent_orders": 5,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 30,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "INFO",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true
+    },
+    "hash": "c02ea3db130f9c1f",
+    "description": "Hot-reload from file"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T17:54:03.354945+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 3000.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 2.0,
+        "take_profit_percentage": 3.0,
+        "enabled": true,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 10.0,
+        "max_concurrent_orders": 5,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 30,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "INFO",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42
+      }
+    },
+    "hash": "f52cd313df1bed36",
+    "description": "Test configuration"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.414491+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 2000.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 2.0,
+        "take_profit_percentage": 3.0,
+        "enabled": true,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 10.0,
+        "max_concurrent_orders": 5,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 30,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "INFO",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42
+      }
+    },
+    "hash": "da30a00c0db92da6",
+    "description": "Changed trading.max_position_size: 3000.0 -> 2000.0"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.431355+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 500.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": true,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 10.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 45.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42
+      }
+    },
+    "hash": "4a5beecd4b727938",
+    "description": "Changed trading.max_position_size: 2000.0 -> 500.0"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.435533+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 500.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": true,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 10.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 45.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42
+      }
+    },
+    "hash": "cc20358494b89648",
+    "description": "Changed trading.stop_loss_percentage: 2.0 -> 1.5"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.440053+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 500.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": true,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 10.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 45.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42
+      }
+    },
+    "hash": "3a5e4f5672da2b4e",
+    "description": "Changed risk_management.max_concurrent_orders: 5 -> 10"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.444502+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 500.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": true,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 10.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 45.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42
+      }
+    },
+    "hash": "d60caa0086dc8a32",
+    "description": "Changed api.timeout_seconds: 30 -> 45.0"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.448929+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 500.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": true,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 10.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 45.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42
+      }
+    },
+    "hash": "fdd1609f3e83d271",
+    "description": "Changed logging.level: INFO -> DEBUG"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.479237+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 1500.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": true,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 10.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 45.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42
+      }
+    },
+    "hash": "e4a299ae437eac80",
+    "description": "Changed trading.max_position_size: 500.0 -> 1500.0"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.498573+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 1500.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 10.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 45.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42
+      }
+    },
+    "hash": "3738c59c3a4826f0",
+    "description": "Test change with custom description"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.507023+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42
+      }
+    },
+    "hash": "b6c4e74eb6fbf5e5",
+    "description": "Changed trading.max_position_size: 1500.0 -> 800.0"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.511074+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42
+      }
+    },
+    "hash": "72e4346a27306a88",
+    "description": "Changed risk_management.max_drawdown: 10.0 -> 5.0"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.515337+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42
+      }
+    },
+    "hash": "3d83b70eddd62cdc",
+    "description": "Changed api.timeout_seconds: 45.0 -> 60.0"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.524813+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "812d8f618478b694",
+    "description": "Changed test.value_0: None -> 0"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.528692+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "de83b34dbf8ab558",
+    "description": "Changed test.value_1: None -> 1"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.532829+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "eca437293a41f405",
+    "description": "Changed test.value_2: None -> 2"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.536923+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "4571ab402c85bcb3",
+    "description": "Changed test.value_3: None -> 3"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.540988+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "a25fb54048f53553",
+    "description": "Changed test.value_4: None -> 4"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.545073+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "bbbc9ffa427a9bc2",
+    "description": "Changed test.value_5: None -> 5"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.549149+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "53dca5aafd90059b",
+    "description": "Changed test.value_6: None -> 6"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.553191+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "8e9c45586075b577",
+    "description": "Changed test.value_7: None -> 7"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.557330+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "7c2976b7d0330e9c",
+    "description": "Changed test.value_8: None -> 8"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.561438+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "349d34055213b4bd",
+    "description": "Changed test.value_9: None -> 9"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.565594+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "bcc5d4161e29a8c6",
+    "description": "Changed test.value_10: None -> 10"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.570046+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "125d6f190e46c9c4",
+    "description": "Changed test.value_11: None -> 11"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.574196+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "71a58ee81baa73e6",
+    "description": "Changed test.value_12: None -> 12"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.578392+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "6c5a30693c499d4f",
+    "description": "Changed test.value_13: None -> 13"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.582648+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "f2a5adb975a3c7cf",
+    "description": "Changed test.value_14: None -> 14"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.591099+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 2000.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "db12319dd4543035",
+    "description": "Initial value"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.595239+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 2000.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "305aae2242688fdd",
+    "description": "First change"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.599687+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 2000.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test_hot_reload": true,
+      "test": {
+        "value": 42,
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      }
+    },
+    "hash": "0864b2d0c974490f",
+    "description": "Second change"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:56:22.643564+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 3000.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      },
+      "test_hot_reload": true
+    },
+    "hash": "b140cce215508a4a",
+    "description": "Hot-reload from file"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:58:27.335396+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 2000.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      },
+      "test_hot_reload": true
+    },
+    "hash": "42202195083b543c",
+    "description": "Changed trading.max_position_size: 3000.0 -> 2000.0"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:58:27.353398+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 500.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 45.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      },
+      "test_hot_reload": true
+    },
+    "hash": "a21b5ecc206ac832",
+    "description": "Changed trading.max_position_size: 2000.0 -> 500.0"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:58:27.359138+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 500.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 45.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      },
+      "test_hot_reload": true
+    },
+    "hash": "6a3df5edd89f681b",
+    "description": "Changed api.timeout_seconds: 60.0 -> 45.0"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:58:27.391059+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 1500.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 45.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      },
+      "test_hot_reload": true
+    },
+    "hash": "d5a025a82682453c",
+    "description": "Changed trading.max_position_size: 500.0 -> 1500.0"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:58:27.424361+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      },
+      "test_hot_reload": true
+    },
+    "hash": "8f207f46f25c1258",
+    "description": "Changed trading.max_position_size: 1500.0 -> 800.0"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:58:27.429305+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 800.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      },
+      "test_hot_reload": true
+    },
+    "hash": "a044b3c5fe18e56a",
+    "description": "Changed api.timeout_seconds: 45.0 -> 60.0"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:58:27.452795+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 1500.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      },
+      "test_hot_reload": true
+    },
+    "hash": "3c23cc8415e48075",
+    "description": "Initial value"
+  },
+  {
+    "version": "v0051",
+    "timestamp": "2025-08-05T18:58:27.457165+00:00",
+    "config_data": {
+      "trading": {
+        "max_position_size": 1500.0,
+        "max_daily_loss": 500.0,
+        "stop_loss_percentage": 1.5,
+        "take_profit_percentage": 3.0,
+        "enabled": false,
+        "new_parameter": "test_value"
+      },
+      "risk_management": {
+        "max_drawdown": 5.0,
+        "max_concurrent_orders": 10,
+        "position_sizing_method": "fixed",
+        "risk_per_trade": 1.0
+      },
+      "api": {
+        "rate_limit_requests_per_minute": 100,
+        "timeout_seconds": 60.0,
+        "retry_attempts": 3,
+        "retry_delay": 1.0
+      },
+      "logging": {
+        "level": "DEBUG",
+        "file_rotation_mb": 10,
+        "max_backup_files": 5,
+        "console_output": true
+      },
+      "system": {
+        "auto_backup_interval_hours": 24,
+        "cleanup_old_logs_days": 30,
+        "performance_monitoring": true
+      },
+      "new_section": {
+        "subsection": {
+          "value": 42
+        }
+      },
+      "test": {
+        "value_0": 0,
+        "value_1": 1,
+        "value_2": 2,
+        "value_3": 3,
+        "value_4": 4,
+        "value_5": 5,
+        "value_6": 6,
+        "value_7": 7,
+        "value_8": 8,
+        "value_9": 9,
+        "value_10": 10,
+        "value_11": 11,
+        "value_12": 12,
+        "value_13": 13,
+        "value_14": 14
+      },
+      "test_hot_reload": true
+    },
+    "hash": "0a101ce946875585",
+    "description": "First change"
+  }
+]
