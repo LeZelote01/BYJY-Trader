@@ -72,7 +72,7 @@ class HyperparameterTuningRequest(BaseModel):
     n_trials: int = Field(default=100, ge=10, le=1000)
     timeout: Optional[int] = Field(default=None, description="Timeout in seconds")
     direction: str = Field(default="maximize", pattern="^(maximize|minimize)$")
-    pruning_strategy: str = Field(default="median", regex="^(median|hyperband|none)$")
+    pruning_strategy: str = Field(default="median", pattern="^(median|hyperband|none)$")
 
 
 class MetaLearningRequest(BaseModel):
