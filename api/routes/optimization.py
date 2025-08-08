@@ -21,6 +21,9 @@ router = APIRouter(prefix="/api/optimization")
 # Global optimization instances (in production, use proper state management)
 genetic_optimizers: Dict[str, GeneticOptimizer] = {}
 pareto_optimizers: Dict[str, ParetoOptimizer] = {}
+optuna_optimizers: Dict[str, OptunaOptimizer] = {}
+adaptive_managers: Dict[str, AdaptiveStrategyManager] = {}
+meta_learners: Dict[str, MetaLearner] = {}
 optimization_jobs: Dict[str, Dict[str, Any]] = {}
 
 
