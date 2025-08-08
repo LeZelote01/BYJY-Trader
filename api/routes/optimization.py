@@ -71,7 +71,7 @@ class HyperparameterTuningRequest(BaseModel):
     optimization_objective: str = Field(default="sharpe_ratio", description="Objective to optimize")
     n_trials: int = Field(default=100, ge=10, le=1000)
     timeout: Optional[int] = Field(default=None, description="Timeout in seconds")
-    direction: str = Field(default="maximize", regex="^(maximize|minimize)$")
+    direction: str = Field(default="maximize", pattern="^(maximize|minimize)$")
     pruning_strategy: str = Field(default="median", regex="^(median|hyperband|none)$")
 
 
