@@ -86,7 +86,7 @@ class AdaptiveStrategyRequest(BaseModel):
     strategy_pool: List[str] = Field(..., description="Available strategies to choose from")
     market_regime_detection: bool = Field(default=True)
     performance_threshold: float = Field(default=0.1, ge=0.0, le=1.0)
-    rebalance_frequency: str = Field(default="daily", regex="^(hourly|daily|weekly)$")
+    rebalance_frequency: str = Field(default="daily", pattern="^(hourly|daily|weekly)$")
 
 
 class StudyInfo(BaseModel):
