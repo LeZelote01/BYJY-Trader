@@ -12,7 +12,7 @@ import numpy as np
 from datetime import datetime
 
 from core.logger import get_logger
-from ai.optimization import GeneticOptimizer, ParetoOptimizer
+from ai.optimization import GeneticOptimizer, ParetoOptimizer, OptunaOptimizer, AdaptiveStrategyManager, MetaLearner
 
 logger = get_logger(__name__)
 
