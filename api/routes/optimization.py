@@ -65,6 +65,42 @@ class ParetoOptimizationRequest(BaseModel):
     random_seed: Optional[int] = None
 
 
+class HyperparameterTuningRequest(BaseModel):
+    parameter_space: ParameterSpace
+    target_model: str = Field(..., description="Model to tune (lstm, transformer, ensemble, trading)")
+    optimization_objective: str = Field(default="sharpe_ratio", description="Objective to optimize")
+    n_trials: int = Field(default=100, ge=10, le=1000)
+    timeout: Optional[int] = Field(default=None, description="Timeout in seconds")
+    direction: str = Field(default="maximize", regex="^(maximize|minimize)$")
+    pruning_strategy: str = Field(default="median", regex="^(median|hyperband|none)$")
+
+
+class MetaLearningRequest(BaseModel):
+    source_models: List[str] = Field(..., description="Source models for meta-learning")
+    target_market: str = Field(..., description="Target market for adaptation")
+    adaptation_strategy: str = Field(default="pattern_recognition", description="Adaptation strategy")
+    min_confidence: float = Field(default=0.7, ge=0.0, le=1.0)
+
+
+class AdaptiveStrategyRequest(BaseModel):
+    strategy_pool: List[str] = Field(..., description="Available strategies to choose from")
+    market_regime_detection: bool = Field(default=True)
+    performance_threshold: float = Field(default=0.1, ge=0.0, le=1.0)
+    rebalance_frequency: str = Field(default="daily", regex="^(hourly|daily|weekly)$")
+
+
+class StudyInfo(BaseModel):
+    study_id: str
+    study_name: str
+    direction: str
+    n_trials: int
+    best_value: Optional[float] = None
+    best_params: Optional[Dict[str, Any]] = None
+    status: str
+    created_at: datetime
+    completed_at: Optional[datetime] = None
+
+
 class OptimizationStatus(BaseModel):
     job_id: str
     status: str
