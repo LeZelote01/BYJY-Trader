@@ -764,19 +764,36 @@ async def get_optimization_service_status():
     completed_jobs = len([job for job in optimization_jobs.values() if job['status'] == 'completed'])
     failed_jobs = len([job for job in optimization_jobs.values() if job['status'] == 'failed'])
     
+    # Count jobs by type
+    job_types = {}
+    for job in optimization_jobs.values():
+        job_type = job.get('type', 'unknown')
+        job_types[job_type] = job_types.get(job_type, 0) + 1
+    
     return {
         'service': 'Optimization Service',
         'status': 'healthy',
         'active_optimizers': {
             'genetic': len(genetic_optimizers),
-            'pareto': len(pareto_optimizers)
+            'pareto': len(pareto_optimizers),
+            'optuna': len(optuna_optimizers),
+            'adaptive': len(adaptive_managers),
+            'meta_learning': len(meta_learners)
         },
         'job_statistics': {
             'running': running_jobs,
             'completed': completed_jobs,
             'failed': failed_jobs,
             'total': len(optimization_jobs)
-        }
+        },
+        'job_types': job_types,
+        'capabilities': [
+            'genetic_optimization',
+            'pareto_optimization', 
+            'hyperparameter_tuning',
+            'meta_learning',
+            'adaptive_strategies'
+        ]
     }
 
 
