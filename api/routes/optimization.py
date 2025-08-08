@@ -514,13 +514,13 @@ async def start_meta_learning_adaptation(
             'error': None
         }
         
-        # TODO: Start adaptation in background
-        # background_tasks.add_task(
-        #     _run_meta_learning_adaptation,
-        #     adaptation_id,
-        #     meta_learner,
-        #     request
-        # )
+        # Start adaptation in background
+        background_tasks.add_task(
+            _run_meta_learning_adaptation,
+            adaptation_id,
+            meta_learner,
+            request
+        )
         
         logger.info(f"Started meta-learning adaptation {adaptation_id}")
         
