@@ -54,24 +54,30 @@ function App() {
 
   const loadInitialData = async () => {
     try {
+      console.log('🔄 Début du chargement des données...');
       setIsLoading(true);
       setError(null);
 
-      // Charger les données en parallèle
+      // Charger les données en parallèle avec timeout
+      console.log('📡 Appel des APIs...');
       const [healthRes, tradingRes, portfolioRes] = await Promise.all([
         api.get('/api/health/'),
         api.get('/api/trading/status'),
         api.get('/api/trading/portfolio')
       ]);
 
+      console.log('✅ APIs répondues, mise à jour des états...');
       setSystemHealth(healthRes.data);
       setTradingStatus(tradingRes.data);
       setPortfolio(portfolioRes.data);
+      
+      console.log('✅ États mis à jour, fin du chargement');
 
     } catch (err) {
-      console.error('Erreur lors du chargement des données:', err);
-      setError(err.message);
+      console.error('❌ Erreur lors du chargement des données:', err);
+      setError(err.message || 'Erreur de connexion');
     } finally {
+      console.log('🏁 setIsLoading(false) appelé');
       setIsLoading(false);
     }
   };
