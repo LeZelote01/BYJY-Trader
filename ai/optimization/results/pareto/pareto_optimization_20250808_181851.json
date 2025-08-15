@@ -1,0 +1,326 @@
+{
+  "pareto_front": [
+    {
+      "parameters": {
+        "layers": 3,
+        "neurons": 83,
+        "dropout": 0.27570521475498894,
+        "learning_rate": 0.007430587503594183
+      },
+      "objectives": [
+        0.8924031136980567,
+        -0.173129423454716
+      ],
+      "rank": 0,
+      "crowding_distance": Infinity,
+      "evaluation_metrics": {}
+    },
+    {
+      "parameters": {
+        "layers": 3,
+        "neurons": 70,
+        "dropout": 0.2817899399881781,
+        "learning_rate": 0.007424687972427598
+      },
+      "objectives": [
+        0.8819933214633467,
+        -0.14975067596753255
+      ],
+      "rank": 0,
+      "crowding_distance": 0.9992759120876398,
+      "evaluation_metrics": {}
+    },
+    {
+      "parameters": {
+        "layers": 3,
+        "neurons": 33,
+        "dropout": 0.20618691666342726,
+        "learning_rate": 0.004533053329273608
+      },
+      "objectives": [
+        0.8590432650374754,
+        -0.07021333158317881
+      ],
+      "rank": 0,
+      "crowding_distance": 1.2240139429206587,
+      "evaluation_metrics": {}
+    },
+    {
+      "parameters": {
+        "layers": 3,
+        "neurons": 83,
+        "dropout": 0.27547724579946037,
+        "learning_rate": 0.007319422664435708
+      },
+      "objectives": [
+        0.7882252230868675,
+        -0.05359837215743897
+      ],
+      "rank": 0,
+      "crowding_distance": 1.0007240879123602,
+      "evaluation_metrics": {}
+    },
+    {
+      "parameters": {
+        "layers": 3,
+        "neurons": 70,
+        "dropout": 0.21033939980397925,
+        "learning_rate": 0.0031138337611793213
+      },
+      "objectives": [
+        0.676844726439642,
+        -0.051265395961554674
+      ],
+      "rank": 0,
+      "crowding_distance": Infinity,
+      "evaluation_metrics": {}
+    }
+  ],
+  "compromise_solutions": [
+    {
+      "parameters": {},
+      "objectives": [],
+      "rank": 0,
+      "crowding_distance": 0.0,
+      "evaluation_metrics": {}
+    },
+    {
+      "parameters": {},
+      "objectives": [],
+      "rank": 0,
+      "crowding_distance": 0.0,
+      "evaluation_metrics": {}
+    },
+    {
+      "parameters": {},
+      "objectives": [],
+      "rank": 0,
+      "crowding_distance": 0.0,
+      "evaluation_metrics": {}
+    }
+  ],
+  "pareto_analysis": {
+    "front_size": 5,
+    "num_objectives": 2,
+    "objective_configs": [
+      {
+        "name": "sharpe_ratio",
+        "maximize": true,
+        "weight": 1.0,
+        "description": "Sharpe ratio maximization",
+        "target_range": null
+      },
+      {
+        "name": "max_drawdown",
+        "maximize": false,
+        "weight": 1.0,
+        "description": "Maximum drawdown minimization",
+        "target_range": null
+      }
+    ],
+    "statistics": {
+      "mean": [
+        0.8197019299450776,
+        -0.09959143982488419
+      ],
+      "std": [
+        0.08014035673897414,
+        0.05145410778462565
+      ],
+      "min": [
+        0.676844726439642,
+        -0.173129423454716
+      ],
+      "max": [
+        0.8924031136980567,
+        -0.051265395961554674
+      ],
+      "median": [
+        0.8590432650374754,
+        -0.07021333158317881
+      ],
+      "range": [
+        0.2155583872584147,
+        0.12186402749316132
+      ]
+    },
+    "diversity_metrics": {
+      "spacing": 0.032625094707716705,
+      "extent": 0.24762120166557358,
+      "spread": 0.09585455221581007,
+      "diversity_score": 0.7339256041720623
+    },
+    "convergence_metrics": {
+      "hypervolume": 1.3585607022953798,
+      "generational_distance": 0.11580514534096883,
+      "convergence_score": 0.8841208243628932
+    },
+    "trade_off_analysis": {
+      "correlation_matrix": [
+        [
+          1.0,
+          -0.7598523003241086
+        ],
+        [
+          -0.7598523003241086,
+          1.0
+        ]
+      ],
+      "significant_trade_offs": [
+        {
+          "objective1": "sharpe_ratio",
+          "objective2": "max_drawdown",
+          "correlation": -0.7598523003241086,
+          "strength": "strong"
+        }
+      ],
+      "num_trade_offs": 1
+    },
+    "extreme_points": {
+      "objective_0_min": {
+        "index": 4,
+        "solution": {
+          "parameters": {
+            "layers": 3,
+            "neurons": 70,
+            "dropout": 0.21033939980397925,
+            "learning_rate": 0.0031138337611793213
+          },
+          "objectives": [
+            0.676844726439642,
+            -0.051265395961554674
+          ],
+          "rank": 0,
+          "crowding_distance": Infinity
+        },
+        "objective_value": 0.676844726439642
+      },
+      "objective_0_max": {
+        "index": 0,
+        "solution": {
+          "parameters": {
+            "layers": 3,
+            "neurons": 83,
+            "dropout": 0.27570521475498894,
+            "learning_rate": 0.007430587503594183
+          },
+          "objectives": [
+            0.8924031136980567,
+            -0.173129423454716
+          ],
+          "rank": 0,
+          "crowding_distance": Infinity
+        },
+        "objective_value": 0.8924031136980567
+      },
+      "objective_1_min": {
+        "index": 0,
+        "solution": {
+          "parameters": {
+            "layers": 3,
+            "neurons": 83,
+            "dropout": 0.27570521475498894,
+            "learning_rate": 0.007430587503594183
+          },
+          "objectives": [
+            0.8924031136980567,
+            -0.173129423454716
+          ],
+          "rank": 0,
+          "crowding_distance": Infinity
+        },
+        "objective_value": -0.173129423454716
+      },
+      "objective_1_max": {
+        "index": 4,
+        "solution": {
+          "parameters": {
+            "layers": 3,
+            "neurons": 70,
+            "dropout": 0.21033939980397925,
+            "learning_rate": 0.0031138337611793213
+          },
+          "objectives": [
+            0.676844726439642,
+            -0.051265395961554674
+          ],
+          "rank": 0,
+          "crowding_distance": Infinity
+        },
+        "objective_value": -0.051265395961554674
+      }
+    },
+    "knee_points": [
+      {
+        "index": 2,
+        "solution": {
+          "parameters": {
+            "layers": 3,
+            "neurons": 33,
+            "dropout": 0.20618691666342726,
+            "learning_rate": 0.004533053329273608
+          },
+          "objectives": [
+            0.8590432650374754,
+            -0.07021333158317881
+          ],
+          "rank": 0,
+          "crowding_distance": 1.2240139429206587
+        },
+        "curvature": 1.0594352332207015,
+        "angle_degrees": 119.29883246899574
+      }
+    ],
+    "2d_analysis": {
+      "front_length": 0.2925197216320321,
+      "average_slope": -0.5653411541372071,
+      "convexity": 0.33333333333333337
+    }
+  },
+  "final_population_size": 20,
+  "generations_completed": 0,
+  "objective_configs": [
+    {
+      "name": "sharpe_ratio",
+      "maximize": true,
+      "weight": 1.0,
+      "description": "Sharpe ratio maximization",
+      "target_range": null
+    },
+    {
+      "name": "max_drawdown",
+      "maximize": false,
+      "weight": 1.0,
+      "description": "Maximum drawdown minimization",
+      "target_range": null
+    }
+  ],
+  "parameter_space": {
+    "layers": {
+      "type": "int",
+      "min": 1,
+      "max": 3
+    },
+    "neurons": {
+      "type": "int",
+      "min": 32,
+      "max": 128
+    },
+    "dropout": {
+      "type": "float",
+      "min": 0.1,
+      "max": 0.3
+    },
+    "learning_rate": {
+      "type": "float",
+      "min": 0.0001,
+      "max": 0.01
+    }
+  },
+  "optimization_config": {
+    "population_size": 20,
+    "num_generations": 10,
+    "crossover_prob": 0.8,
+    "mutation_prob": 0.1
+  }
+}

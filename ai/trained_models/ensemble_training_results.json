@@ -1,0 +1,17 @@
+{
+  "training_started": "2025-08-08T09:52:12.222127",
+  "symbols": {
+    "BTCUSDT": {
+      "error": "Insufficient data"
+    },
+    "ETHUSDT": {
+      "error": "Insufficient data"
+    }
+  },
+  "summary": {
+    "total_symbols": 2,
+    "successful_trainings": 0,
+    "failed_trainings": 2
+  },
+  "training_completed": "2025-08-08T09:52:12.238211"
+}

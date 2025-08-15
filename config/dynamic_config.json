@@ -1,0 +1,56 @@
+{
+  "trading": {
+    "max_position_size": 3000.0,
+    "max_daily_loss": 500.0,
+    "stop_loss_percentage": 1.5,
+    "take_profit_percentage": 3.0,
+    "enabled": false,
+    "new_parameter": "test_value"
+  },
+  "risk_management": {
+    "max_drawdown": 5.0,
+    "max_concurrent_orders": 10,
+    "position_sizing_method": "fixed",
+    "risk_per_trade": 1.0
+  },
+  "api": {
+    "rate_limit_requests_per_minute": 100,
+    "timeout_seconds": 60.0,
+    "retry_attempts": 3,
+    "retry_delay": 1.0
+  },
+  "logging": {
+    "level": "DEBUG",
+    "file_rotation_mb": 10,
+    "max_backup_files": 5,
+    "console_output": true
+  },
+  "system": {
+    "auto_backup_interval_hours": 24,
+    "cleanup_old_logs_days": 30,
+    "performance_monitoring": true
+  },
+  "new_section": {
+    "subsection": {
+      "value": 42
+    }
+  },
+  "test": {
+    "value_0": 0,
+    "value_1": 1,
+    "value_2": 2,
+    "value_3": 3,
+    "value_4": 4,
+    "value_5": 5,
+    "value_6": 6,
+    "value_7": 7,
+    "value_8": 8,
+    "value_9": 9,
+    "value_10": 10,
+    "value_11": 11,
+    "value_12": 12,
+    "value_13": 13,
+    "value_14": 14
+  },
+  "test_hot_reload": true
+}
